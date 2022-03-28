@@ -108,17 +108,14 @@ header {
 section {
   width: 100%;
 }
-
 .slider--orange {
   border-bottom: 6px solid #ea676b;
   background: #f06c64;
+  display: none;
 }
 .slider--blue {
   border-bottom: 6px solid #ea676b;
   background: #648bf0;
-}
-.slider__hidden {
-  display: none;
 }
 .slider--content {
   margin: 0 auto;
@@ -240,4 +237,108 @@ section {
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
+}
+/* PORFOLIO */
+.portfolio {
+  width: 100%;
+  border-bottom: 6px solid #323746;
+  display: flex;
+  justify-content: center;
+  background: #2d303a;
+}
+.portfolio--wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1040px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.portfolio--title {
+  font-family: "Lato";
+  margin-top: 59px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+}
+.portfolio--subtitle {
+  font-family: "Lato";
+  margin-top: 14px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+.portfolio--filtres {
+  margin-top: 18px;
+}
+.portfolio--button {
+  margin-left: 10px;
+}
+.text--button__one {
+  border: 1px solid #bbbbbb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 28px;
+  height: 22px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: #dedede;
+}
+.text--button__two {
+  border: 1px solid #767e9e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 79px;
+  height: 22px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: #767e9e;
+}
+.text--button__three {
+  border: 1px solid #767e9e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 95px;
+  height: 22px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: #767e9e;
+}
+.text--button__four {
+  border: 1px solid #767e9e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 58px;
+  height: 22px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: #767e9e;
+}
+.portfolio--button:first-child {
+  margin: 0;
+}
+.portfolio--pictures {
+  margin-top: 8px;
+  margin-bottom: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio--img {
+  margin-top: 20px;
 }
